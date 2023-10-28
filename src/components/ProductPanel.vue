@@ -17,8 +17,10 @@ import ProductCard from './ProductCard.vue'
 		components: { ProductCard },
 
 		props: {
-			cardList: Array,
-			default: ()=>[]
+			cardList:{
+				type: Array,
+				default: ()=>[]
+			} 
 		}
 	}
 </script>
